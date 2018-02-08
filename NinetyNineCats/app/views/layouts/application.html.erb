@@ -17,6 +17,10 @@
       <% end %>
     <%= csrf_meta_tags %>
 
+    <form action="<%= cats_url %>" method="get">
+      <button type="submit" name="login">Back to Homepage</button>
+    </form>
+
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
   </head>
